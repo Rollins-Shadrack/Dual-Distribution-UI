@@ -1,0 +1,9 @@
+#home{
+    height: 80vh;
+    background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url('../static/homepage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: center center;
+    color: white;
+}

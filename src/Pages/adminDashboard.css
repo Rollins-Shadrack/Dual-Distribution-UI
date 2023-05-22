@@ -1,0 +1,10 @@
+.body{
+    width: 100%;
+    display: flex;
+}
+.sidebar{
+    width: 15%;
+}
+.pages{
+    width: 85%;
+}

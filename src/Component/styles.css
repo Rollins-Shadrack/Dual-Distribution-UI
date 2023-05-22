@@ -1,0 +1,96 @@
+.box{
+    width: 300px;
+    height: 150px;
+    color: #EEEEEE;
+    border-radius: 5px;
+}
+.size{
+    max-width: 400px;
+}
+.contain{
+    display: block;
+    border-radius: 5px;
+   
+}
+.manage, .add, .home, .admin, .retailer, .wholeseller, .buyer{
+    padding: 3px 35px;
+    color: #FCF5E5;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.manage{
+    color: #9EC7CB;
+    border: 1px solid #9EC7CB;
+}
+.add{
+    color: #B51D46;
+    border: 1px solid #B51D46;
+}
+.home{
+    color: #B51D46;
+    border: 1px solid #B51D46;
+}
+.admin{
+
+    color: #346E75;
+    border: 1px solid #346E75;
+}
+.retailer{
+    color: #3dabc2;
+    border: 1px solid #3dabc2;
+}
+.buyer{
+    color: #91f2ff;
+    border: 1px solid #91f2ff;
+}
+.wholeseller{
+    color: #3B8686;
+    border: 1px solid #3B8686;
+}
+.customers{
+    max-height: 60vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 6px;
+    background-color: #3B8686;
+}
+::-webkit-scrollbar-button{
+    width: 5px;
+    background-color: white;
+}
+.signup-profile-pic__container {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.signup-profile-pic {
+    width: 90px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    object-fit: cover;
+    height: 90px;
+}
+
+.add-picture-icon {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: green;
+    background: white;
+    cursor: pointer;
+    z-index: 99;
+}
+.btnsLink{
+    text-decoration: none;
+}
+.btns{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}

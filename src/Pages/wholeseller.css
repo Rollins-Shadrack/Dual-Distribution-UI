@@ -1,0 +1,69 @@
+.comment {
+    background-color: #FA4917;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px 0;
+    color: white;
+    clip-path: polygon(10% 0, 100% 0, 100% 80%, 90% 100%, 10% 100%, 0 80%, 0 10%);
+}
+/* Default styles */
+
+/* Styles for small devices */
+@media only screen and (max-width: 767px) {
+.imageGif{
+    width: 90%;
+    height: 200px;
+}
+}
+
+/* Styles for medium devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .imageGif{
+        width: 90%;
+        height: 250px;
+    }
+}
+
+/* Styles for large devices */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+/* Styles for large devices go here */
+/* .imageGif{
+    width: 90%;
+    height: 500px;
+} */
+}
+
+/* Styles for extra large devices */
+@media only screen and (min-width: 1200px) {
+/* Styles for extra large devices go here */
+.imageGif{
+    width: 90%;
+    height: 330px;
+}
+}
+
+.signup-profile-pic__container {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.signup-profile-pic {
+    width: 90px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    object-fit: cover;
+    height: 90px;
+}
+
+.add-picture-icon {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: green;
+    background: white;
+    cursor: pointer;
+    z-index: 99;
+}
+  
